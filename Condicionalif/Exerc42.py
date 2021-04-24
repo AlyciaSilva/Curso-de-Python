@@ -1,0 +1,15 @@
+#Programa que diz  se há como existir um triangulo e informa se ele é um isoceles, escaleno ou equilatero
+print('Digite 3 valores para construir um triângulo')
+a = float(input('Medida do lado um: '))
+b = float(input('Medida do lado dois: '))
+c = float(input('Medida do lado três: '))
+if b - c < a < b + c and a - c < b < a + c and b - a < c < b + a:
+    print('Parabéns!! É um triângulo ')
+    if a == b  and b == c:
+        print('E é um equilatero!!!')
+    elif a == b and b != c or a == c and c != b or c == b and c != a:
+        print('E é um isosceles')
+    else:
+        print ('E é um escaleno!!!')
+else:
+    print('Não é um triângulo :( ')    
