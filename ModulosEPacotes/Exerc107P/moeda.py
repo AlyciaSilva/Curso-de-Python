@@ -9,3 +9,5 @@ def dobro(n):
     return n*2
 def metade(n):
     return n/2
+def moeda (num, moeda = 'R$'):
+    return f'{num}{moeda:.2f}'.replace('.',',')
