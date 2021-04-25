@@ -14,3 +14,4 @@ def contador(* num):
     for valor in num:
         print(valor, end = "")
     print('Fim!!')
+contador(2,3,4)

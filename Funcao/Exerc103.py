@@ -1,5 +1,8 @@
 def ficha(name = '<Desconhecido>',gols = 0):
     """
+    -> Função para mostrar a ficha de um jogador
+    :param name: (opcional) mostra o nome do jogador
+    :param gols: (opcional)mostra a quantidade de gols
     """
     print(f'O jogador {name} fez {gols} gols no campeonato')
 
